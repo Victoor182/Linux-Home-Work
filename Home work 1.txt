@@ -1,0 +1,17 @@
+   0 mkdir -p /home/animals/fisch && cd /home/animals
+   1 mkdir cats dogs
+   2 cd cats && touch Garfield.txt && cd /home/animals/dogs
+   3 touch Pluto.txt && cd /home/animals/fisch/
+   4 touch Nemo.txt && mkdir /home/planets
+   5 cd /opt
+   6 touch Mercury.txt Venus.txt && touch Mars.txt Jupiter.txt 
+   7 mv /opt/Mercury.txt /home/planets/Mercury.txt && mv /opt/Venus.txt /home/planets/Venus.txt
+   8 mv /opt/Mars.txt /home/planets/Mars.txt && mv /opt/Jupiter.txt /home/planets/Jupiter.txt
+   9 tree /home
+  10 cd /tmp && touch adam.txt 
+  11 mkdir /home/humans && cp /tmp/adam.txt /home/humans/Adam.txt
+  12 touch evA.txt && mv /tmp/evA.txt /opt/eve.txt
+  13 cd /opt
+  14 mv /opt/eve.txt /home/humans/eve.txt && cd /home
+  15 tree
+  16 history > history.txt
