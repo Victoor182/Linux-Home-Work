@@ -1,0 +1,9 @@
+   0 mkdir -p /home/user/start /opt/task /tmp/testnow
+   1 echo "Start" >> /home/user/start/1.txt
+   2 mv /home/user/start/1.txt /opt/task/start.txt
+   3 ls -a / | tail -4 >> /opt/task/start.txt
+   4 cp -a /opt/task /tmp/testnow
+   5 cat /root/readme.txt >> /opt/task/start.txt
+   6 rm -rf /opt/task
+   7 date >> /tmp/testnow/task/start.txt
+   8 cat /tmp/testnow/task/start.txt
